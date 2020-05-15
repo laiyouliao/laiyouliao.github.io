@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://laiyouliao.github.io</id>
     <title>来有聊</title>
-    <updated>2020-05-14T10:08:27.463Z</updated>
+    <updated>2020-05-15T02:13:51.609Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://laiyouliao.github.io"/>
     <link rel="self" href="https://laiyouliao.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://laiyouliao.github.io/images/avatar.png</logo>
     <icon>https://laiyouliao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 来有聊</rights>
+    <entry>
+        <title type="html"><![CDATA[自由是个什么东西？]]></title>
+        <id>https://laiyouliao.github.io/post/zi-you-shi-ge-shi-me-dong-xi/</id>
+        <link href="https://laiyouliao.github.io/post/zi-you-shi-ge-shi-me-dong-xi/">
+        </link>
+        <updated>2020-05-15T01:42:07.000Z</updated>
+        <content type="html"><![CDATA[<p>现在回想起来，我第一次翻墙的时候，应该是十七八岁的时候，那时候网络还很自由，偶然间就找到了一个梯子，不过梯子是由某个传教组织做出来的，每次打开它，都会出现一版的“XX大法好”的内容，那时候还不知道推特，只知道有个和人人网差不多的“菲斯不克”，随即注册了下，发现确实能找到歪果仁，当时那种感觉很奇特，有点像黑暗中见到一束光？<br>
+可惜这改装版的梯子，没多久就挂了，之后一直想要新的梯子，然后受限于自己虽然是网络从业者，但对所谓的代码、架设、一知半解，中间有一段时间，就一直没有机会能去到墙外。<br>
+时间走到2018年10.1国庆，我决定去宝岛台湾走走，因为之前虽然一直在广州，但一直没去过香港+香港出发确实会便宜很多，人生中第一次“肉身翻墙？”就这么来了，提起香港，很多人都会觉得是购物天堂，可以各种买买买，但我现在回想起来第一次去到香港，还记得场景只有，我们定的民宿附近的沙滩上，落日余晖下各种肤色的人在沙滩上或汤或坐，突然我好像明白了，自由是个什么东西，人活一世，就应该多出去走走，多出去见见外面的世界和人，才不会浪费这一生。<br>
+当我垂垂老矣的时候，也大概会觉得不虚此行吧。<br>
+随文附上美国《生活》杂字的创刊词：</p>
+<p>去看生活，去看世界；去目击伟大的历史事件；<br>
+去看穷人的面孔和骄傲者的姿态；<br>
+去看不同寻常的事物——机器、军队、群众、以及丛林中和月球上的阴影；<br>
+去看人类的杰作——绘画、建筑和发明；<br>
+去看千里之外的世界，去看隐藏在高墙和房间内的事物，以及难以接近的危险事件；<br>
+去看那些被男人所爱着的女人们还有孩子；<br>
+去看并且享受愉悦；<br>
+去看并被感动；<br>
+去看并被教育…</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[越过长城，走向世界]]></title>
         <id>https://laiyouliao.github.io/post/yue-guo-chang-cheng-zou-xiang-shi-jie/</id>
