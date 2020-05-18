@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://laiyouliao.github.io</id>
     <title>来有聊</title>
-    <updated>2020-05-15T09:29:39.925Z</updated>
+    <updated>2020-05-18T01:33:48.797Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://laiyouliao.github.io"/>
     <link rel="self" href="https://laiyouliao.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://laiyouliao.github.io/images/avatar.png</logo>
     <icon>https://laiyouliao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 来有聊</rights>
+    <entry>
+        <title type="html"><![CDATA[每日吐槽]]></title>
+        <id>https://laiyouliao.github.io/post/mei-ri-tu-cao/</id>
+        <link href="https://laiyouliao.github.io/post/mei-ri-tu-cao/">
+        </link>
+        <updated>2020-05-18T01:31:40.000Z</updated>
+        <content type="html"><![CDATA[<p>🙁武汉十天检测所有人的决定，是最近让我觉得很无脑的一条消息。2020/5/18</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[活了这么久，没想到真见到了农夫与蛇的故事。]]></title>
         <id>https://laiyouliao.github.io/post/huo-liao-zhe-me-jiu-mei-xiang-dao-zhen-jian-dao-liao-nong-fu-yu-she-de-gu-shi/</id>
