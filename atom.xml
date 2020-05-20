@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://laiyouliao.github.io</id>
     <title>来有聊</title>
-    <updated>2020-05-19T07:44:16.068Z</updated>
+    <updated>2020-05-20T02:28:55.455Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://laiyouliao.github.io"/>
     <link rel="self" href="https://laiyouliao.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://laiyouliao.github.io/images/avatar.png</logo>
     <icon>https://laiyouliao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 来有聊</rights>
+    <entry>
+        <title type="html"><![CDATA[移动互联网给我带来的变化]]></title>
+        <id>https://laiyouliao.github.io/post/yi-dong-hu-lian-wang-gei-wo-dai-lai-de-bian-hua/</id>
+        <link href="https://laiyouliao.github.io/post/yi-dong-hu-lian-wang-gei-wo-dai-lai-de-bian-hua/">
+        </link>
+        <updated>2020-05-20T01:43:55.000Z</updated>
+        <content type="html"><![CDATA[<p>😄字越来越丑，但好像日常也也用不到写字，有段时间我曾萌发，买个ipadmini代替日常记录，人嘛随着科技退化身体机能不丢脸。<br>
+😌手机长在手上，我这人很讨厌一直拿着手机，不管是逛街吃饭还是其他事情，但是最近发现，潜移默化，我一天出门手机就和长在我手上一样，即便是刻意的放回包里，但心里也想着拿手机出来。<br>
+😤被微信绑架，说实在的，如果有选择我真想把微信给卸载，本来是一个沟通工具，但是现在越来越臃肿，我关闭了朋友圈、关闭了很多无用的插件，但是依然离不开，工作和生活都离不开。<br>
+🤡习惯了扫码，得力于国家的推广，现在越来越习惯扫描周边的二维码，手机一扫就能完成很多事，人也简单了，不用记住很多复杂的信息，扫码就完事了。<br>
+😅学习碎片化，各种网课看着是很容易就能免费学到，但作为一个从业者，我知道大多都是垃圾内容，只是让你体验那种虚幻的得到感，这方面和电子游戏一样。<br>
+😕很难写出长文章，比如现在，其实写到这里，我已经没啥好写的了，就这样结束吧。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[碎碎念]]></title>
         <id>https://laiyouliao.github.io/post/mei-ri-tu-cao/</id>
