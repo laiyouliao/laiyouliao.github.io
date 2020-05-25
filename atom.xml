@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://laiyouliao.github.io</id>
     <title>来有聊</title>
-    <updated>2020-05-22T02:13:30.284Z</updated>
+    <updated>2020-05-25T01:37:08.020Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://laiyouliao.github.io"/>
     <link rel="self" href="https://laiyouliao.github.io/atom.xml"/>
@@ -10,6 +10,41 @@
     <logo>https://laiyouliao.github.io/images/avatar.png</logo>
     <icon>https://laiyouliao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 来有聊</rights>
+    <entry>
+        <title type="html"><![CDATA[无题]]></title>
+        <id>https://laiyouliao.github.io/post/wu-ti/</id>
+        <link href="https://laiyouliao.github.io/post/wu-ti/">
+        </link>
+        <updated>2020-05-25T01:36:32.000Z</updated>
+        <content type="html"><![CDATA[<p>我最近开始吃复合维生素<br>
+开始每天早上坚持早起＋运动<br>
+开始上床丢掉手机争取早睡<br>
+开始用独立博客写日记<br>
+开始准备学日语<br>
+计划学pr<br>
+计划做一个自媒体<br>
+计划把兼职做起来<br>
+计划清负债、存点钱<br>
+计划买一些电子产品<br>
+这就是这次疫情带给我的变化吧。<br>
+可是我依然抵不过时间的消磨<br>
+我开始很费劲的看不进书<br>
+开始自我怀疑是不是变油腻了<br>
+开始停止接接收外界的变化<br>
+很多明星都不认识<br>
+喜欢的歌曲还是那些人<br>
+喜欢的人早已不在<br>
+无法写出文章<br>
+只能写出短短的文字段<br>
+我抗拒这个纷扰的世界<br>
+我注销微博，关闭朋友圈<br>
+删除微信好友…<br>
+去看一些自以为正确的信息<br>
+变得随和且坚韧<br>
+希望拔了智齿<br>
+但为啥我的心还是空的呢？</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[移动互联网给我带来的变化]]></title>
         <id>https://laiyouliao.github.io/post/yi-dong-hu-lian-wang-gei-wo-dai-lai-de-bian-hua/</id>
