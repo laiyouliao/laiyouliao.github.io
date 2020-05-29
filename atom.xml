@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://laiyouliao.github.io</id>
     <title>来有聊</title>
-    <updated>2020-05-29T01:15:43.389Z</updated>
+    <updated>2020-05-29T01:42:32.112Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://laiyouliao.github.io"/>
     <link rel="self" href="https://laiyouliao.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://laiyouliao.github.io/images/avatar.png</logo>
     <icon>https://laiyouliao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 来有聊</rights>
+    <entry>
+        <title type="html"><![CDATA[多去外面看看吧]]></title>
+        <id>https://laiyouliao.github.io/post/duo-qu-wai-mian-kan-kan-ba/</id>
+        <link href="https://laiyouliao.github.io/post/duo-qu-wai-mian-kan-kan-ba/">
+        </link>
+        <updated>2020-05-29T01:37:57.000Z</updated>
+        <content type="html"><![CDATA[<p>多去外面看看<br>
+你才能发现这个世界，有很多其他声音，有着各色人种，没有绝对的善与恶，没有喊打喊杀的皿煮自豪感，没有连自由和维尼熊都打不出来的社交平台。<br>
+一个具备正常人格的人，应该时刻自省，抛弃所谓的集体荣誉感，你是为自己而活，然后才是照顾自己身边的需要照顾的人，集体意志是个恶心透顶的东西，它唯一的作用就是蚕食个人意志的时候，被拿出来当做红宝书。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[无题]]></title>
         <id>https://laiyouliao.github.io/post/wu-ti/</id>
