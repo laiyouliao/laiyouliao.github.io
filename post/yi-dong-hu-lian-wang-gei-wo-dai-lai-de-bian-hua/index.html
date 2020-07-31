@@ -1,165 +1,198 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>移动互联网给我带来的变化 | 来有聊</title>
-<meta name="description" content="温故而知新">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://laiyouliao.github.io/favicon.ico?v=1596168312015">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://laiyouliao.github.io/favicon.ico?v=1596168467660">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://laiyouliao.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="移动互联网给我带来的变化 | 来有聊 - Atom Feed" href="https://laiyouliao.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168571007-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  gtag('config', 'UA-168571007-1');
+</script>
 
 
-
+    <meta name="description" content="😄字越来越丑，但好像日常也也用不到写字，有段时间我曾萌发，买个ipadmini代替日常记录，人嘛随着科技退化身体机能不丢脸。
+😌手机长在手上，我这人很讨厌一直拿着手机，不管是逛街吃饭还是其他事情，但是最近发现，潜移默化，我一天出门手机就..." />
+    <meta name="keywords" content="生活" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://laiyouliao.github.io">
-        <img class="avatar" src="https://laiyouliao.github.io/images/avatar.png?v=1596168312015" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://laiyouliao.github.io">
-        <h1 class="site-title">来有聊</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://laiyouliao.github.io">
+  <img class="avatar" src="https://laiyouliao.github.io/images/avatar.png?v=1596168467660" alt="">
+  </a>
+  <h1 class="site-title">
+    来有聊
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          文档
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+      
+        <a href="https://laiyouliao.github.io/post/mei-ri-tu-cao" class="menu">
+          碎碎念
+        </a>
+      
+    
+      
+        <a href="https://support.qq.com/product/163220" class="menu">
+          留言区
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/laiyouliao" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+        <a href="https://twitter.com/rmiaocai" target="_blank">
+          <i class="ri-twitter-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            文档
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-        
-          <a href="https://laiyouliao.github.io/post/mei-ri-tu-cao" class="menu purple-link">
-            碎碎念
-          </a>
-        
-      
-        
-          <a href="https://support.qq.com/product/163220" class="menu purple-link">
-            留言区
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
         <div class="post-detail">
-          
-          <h2 class="post-title">移动互联网给我带来的变化</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-05-20</span>
-            
+          <article class="post">
+            <h2 class="post-title">
+              移动互联网给我带来的变化
+            </h2>
+            <div class="post-info">
               <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://laiyouliao.github.io/tag/TtBRfCTc2/">
-                    生活
-                    
-                  </a>
-                
+                2020-05-20
               </span>
+              <span>
+                2 min read
+              </span>
+              
+                <a href="https://laiyouliao.github.io/tag/TtBRfCTc2/" class="post-tag">
+                  # 生活
+                </a>
+              
+            </div>
             
-          </div>
-          <div class="post-content">
-            <p>😄字越来越丑，但好像日常也也用不到写字，有段时间我曾萌发，买个ipadmini代替日常记录，人嘛随着科技退化身体机能不丢脸。<br>
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>😄字越来越丑，但好像日常也也用不到写字，有段时间我曾萌发，买个ipadmini代替日常记录，人嘛随着科技退化身体机能不丢脸。<br>
 😌手机长在手上，我这人很讨厌一直拿着手机，不管是逛街吃饭还是其他事情，但是最近发现，潜移默化，我一天出门手机就和长在我手上一样，即便是刻意的放回包里，但心里也想着拿手机出来。<br>
 😤被微信绑架，说实在的，如果有选择我真想把微信给卸载，本来是一个沟通工具，但是现在越来越臃肿，我关闭了朋友圈、关闭了很多无用的插件，但是依然离不开，工作和生活都离不开。<br>
 🤡习惯了扫码，得力于国家的推广，现在越来越习惯扫描周边的二维码，手机一扫就能完成很多事，人也简单了，不用记住很多复杂的信息，扫码就完事了。<br>
 😅学习碎片化，各种网课看着是很容易就能免费学到，但作为一个从业者，我知道大多都是垃圾内容，只是让你体验那种虚幻的得到感，这方面和电子游戏一样。<br>
 😕很难写出长文章，比如现在，其实写到这里，我已经没啥好写的了，就这样结束吧。</p>
 
-          </div>
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://laiyouliao.github.io/post/huo-liao-zhe-me-jiu-mei-xiang-dao-zhen-jian-dao-liao-nong-fu-yu-she-de-gu-shi/">
+            <div class="next">下一篇</div>
+            <a href="https://laiyouliao.github.io/post/huo-liao-zhe-me-jiu-mei-xiang-dao-zhen-jian-dao-liao-nong-fu-yu-she-de-gu-shi/">
               <h3 class="post-title">
-                下一篇：活了这么久，没想到真见到了农夫与蛇的故事。
+                活了这么久，没想到真见到了农夫与蛇的故事。
               </h3>
             </a>
           </div>
-          
-      </div>
+        
 
-      
+        
 
-      <div class="site-footer">
-  <div class="slogan">温故而知新</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-   | <a class="rss" href="https://laiyouliao.github.io/atom.xml" target="_blank">RSS</a>
+        <div class="site-footer">
+  
+  <a class="rss" href="https://laiyouliao.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
 </div>
 
-
+      </div>
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script>
+      hljs.initHighlightingOnLoad()
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-</script>
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
 
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
 
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
 
-
+    </script>
   </body>
 </html>
