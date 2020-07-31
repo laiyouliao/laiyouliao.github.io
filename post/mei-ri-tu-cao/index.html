@@ -1,120 +1,98 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>碎碎念 | 来有聊</title>
-<link rel="shortcut icon" href="https://laiyouliao.github.io/favicon.ico?v=1596167638918">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://laiyouliao.github.io/favicon.ico?v=1596168312015">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://laiyouliao.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="碎碎念 | 来有聊 - Atom Feed" href="https://laiyouliao.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168571007-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-168571007-1');
-</script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
-    <meta name="description" content="🙁武汉十天检测所有人的决定，是最近让我觉得很无脑的一条消息。2020/5/18
-🙂唯一能让我对每天上班产生期待的，就是办公室的葡萄干了。2020/5/19
-😂我觉得中国现在主流媒体的，文案和标题水平真的很反智。2020/5/19
-😂..." />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://laiyouliao.github.io">
-  <img class="avatar" src="https://laiyouliao.github.io/images/avatar.png?v=1596167638918" alt="">
-  </a>
-  <h1 class="site-title">
-    来有聊
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          文档
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-      
-        <a href="https://laiyouliao.github.io/post/mei-ri-tu-cao" class="menu">
-          碎碎念
-        </a>
-      
-    
-      
-        <a href="https://support.qq.com/product/163220" class="menu">
-          留言区
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/laiyouliao" target="_blank">
-          <i class="ri-github-line"></i>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/rmiaocai" target="_blank">
-          <i class="ri-twitter-line"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://laiyouliao.github.io">
+        <img class="avatar" src="https://laiyouliao.github.io/images/avatar.png?v=1596168312015" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://laiyouliao.github.io">
+        <h1 class="site-title">来有聊</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            文档
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+        
+          <a href="https://laiyouliao.github.io/post/mei-ri-tu-cao" class="menu purple-link">
+            碎碎念
+          </a>
+        
+      
+        
+          <a href="https://support.qq.com/product/163220" class="menu purple-link">
+            留言区
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              碎碎念
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-05-18
-              </span>
-              <span>
-                4 min read
-              </span>
-              
-            </div>
+          
+          <h2 class="post-title">碎碎念</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-05-18</span>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>🙁武汉十天检测所有人的决定，是最近让我觉得很无脑的一条消息。2020/5/18<br>
+          </div>
+          <div class="post-content">
+            <p>🙁武汉十天检测所有人的决定，是最近让我觉得很无脑的一条消息。2020/5/18<br>
 🙂唯一能让我对每天上班产生期待的，就是办公室的葡萄干了。2020/5/19<br>
 😂我觉得中国现在主流媒体的，文案和标题水平真的很反智。2020/5/19<br>
 😂天气热的想爆炸，2020/5/20<br>
@@ -154,67 +132,49 @@
 😂人就是贱，天气热的，我无比怀念在家办公 2020/7/13<br>
 😂每次看到微博的各种杠精评论，我都为注销微博的决定感到开心 2020/7/17</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
 
         
+      </div>
 
-        
+      
 
-        <div class="site-footer">
-  
-  <a class="rss" href="https://laiyouliao.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+      <div class="site-footer">
+  <div class="slogan">温故而知新</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+   | <a class="rss" href="https://laiyouliao.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-      </div>
+
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
