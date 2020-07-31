@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://laiyouliao.github.io</id>
+    <id>https://laiyouliao.com</id>
     <title>来有聊</title>
-    <updated>2020-07-31T04:07:50.514Z</updated>
+    <updated>2020-07-31T04:12:39.208Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://laiyouliao.github.io"/>
-    <link rel="self" href="https://laiyouliao.github.io/atom.xml"/>
+    <link rel="alternate" href="https://laiyouliao.com"/>
+    <link rel="self" href="https://laiyouliao.com/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://laiyouliao.github.io/images/avatar.png</logo>
-    <icon>https://laiyouliao.github.io/favicon.ico</icon>
+    <logo>https://laiyouliao.com/images/avatar.png</logo>
+    <icon>https://laiyouliao.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 来有聊</rights>
     <entry>
         <title type="html"><![CDATA[去你妈的后浪]]></title>
-        <id>https://laiyouliao.github.io/post/qu-ni-ma-de-hou-lang/</id>
-        <link href="https://laiyouliao.github.io/post/qu-ni-ma-de-hou-lang/">
+        <id>https://laiyouliao.com/post/qu-ni-ma-de-hou-lang/</id>
+        <link href="https://laiyouliao.com/post/qu-ni-ma-de-hou-lang/">
         </link>
         <updated>2020-06-04T01:17:37.000Z</updated>
         <content type="html"><![CDATA[<p>后浪们，所谓拥有了梦寐以求的选择权力。<br>
-<img src="https://laiyouliao.github.io/post-images/1591233519936.jpg" alt="" loading="lazy"></p>
+<img src="https://laiyouliao.com/post-images/1591233519936.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[多去外面看看吧]]></title>
-        <id>https://laiyouliao.github.io/post/duo-qu-wai-mian-kan-kan-ba/</id>
-        <link href="https://laiyouliao.github.io/post/duo-qu-wai-mian-kan-kan-ba/">
+        <id>https://laiyouliao.com/post/duo-qu-wai-mian-kan-kan-ba/</id>
+        <link href="https://laiyouliao.com/post/duo-qu-wai-mian-kan-kan-ba/">
         </link>
         <updated>2020-05-29T01:37:57.000Z</updated>
         <content type="html"><![CDATA[<p>多去外面看看<br>
@@ -33,8 +33,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[无题]]></title>
-        <id>https://laiyouliao.github.io/post/wu-ti/</id>
-        <link href="https://laiyouliao.github.io/post/wu-ti/">
+        <id>https://laiyouliao.com/post/wu-ti/</id>
+        <link href="https://laiyouliao.com/post/wu-ti/">
         </link>
         <updated>2020-05-25T01:36:32.000Z</updated>
         <content type="html"><![CDATA[<p>我最近开始吃复合维生素<br>
@@ -68,8 +68,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[移动互联网给我带来的变化]]></title>
-        <id>https://laiyouliao.github.io/post/yi-dong-hu-lian-wang-gei-wo-dai-lai-de-bian-hua/</id>
-        <link href="https://laiyouliao.github.io/post/yi-dong-hu-lian-wang-gei-wo-dai-lai-de-bian-hua/">
+        <id>https://laiyouliao.com/post/yi-dong-hu-lian-wang-gei-wo-dai-lai-de-bian-hua/</id>
+        <link href="https://laiyouliao.com/post/yi-dong-hu-lian-wang-gei-wo-dai-lai-de-bian-hua/">
         </link>
         <updated>2020-05-20T01:43:55.000Z</updated>
         <content type="html"><![CDATA[<p>😄字越来越丑，但好像日常也也用不到写字，有段时间我曾萌发，买个ipadmini代替日常记录，人嘛随着科技退化身体机能不丢脸。<br>
@@ -82,21 +82,21 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[活了这么久，没想到真见到了农夫与蛇的故事。]]></title>
-        <id>https://laiyouliao.github.io/post/huo-liao-zhe-me-jiu-mei-xiang-dao-zhen-jian-dao-liao-nong-fu-yu-she-de-gu-shi/</id>
-        <link href="https://laiyouliao.github.io/post/huo-liao-zhe-me-jiu-mei-xiang-dao-zhen-jian-dao-liao-nong-fu-yu-she-de-gu-shi/">
+        <id>https://laiyouliao.com/post/huo-liao-zhe-me-jiu-mei-xiang-dao-zhen-jian-dao-liao-nong-fu-yu-she-de-gu-shi/</id>
+        <link href="https://laiyouliao.com/post/huo-liao-zhe-me-jiu-mei-xiang-dao-zhen-jian-dao-liao-nong-fu-yu-she-de-gu-shi/">
         </link>
         <updated>2020-05-15T09:12:15.000Z</updated>
         <content type="html"><![CDATA[<p>今天才知道，<br>
 原来那个在阳台上敲锣的那个女人，<br>
 和这个辱骂她故意让家人病重来陷害祖国的女人，<br>
 其实是同一类人。</p>
-<figure data-type="image" tabindex="1"><img src="https://laiyouliao.github.io/post-images/1589534973083.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://laiyouliao.com/post-images/1589534973083.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[自由是个什么东西？]]></title>
-        <id>https://laiyouliao.github.io/post/zi-you-shi-ge-shi-me-dong-xi/</id>
-        <link href="https://laiyouliao.github.io/post/zi-you-shi-ge-shi-me-dong-xi/">
+        <id>https://laiyouliao.com/post/zi-you-shi-ge-shi-me-dong-xi/</id>
+        <link href="https://laiyouliao.com/post/zi-you-shi-ge-shi-me-dong-xi/">
         </link>
         <updated>2020-05-15T01:42:07.000Z</updated>
         <content type="html"><![CDATA[<p>现在回想起来，我第一次翻墙的时候，应该是十七八岁的时候，那时候网络还很自由，偶然间就找到了一个梯子，不过梯子是由某个传教组织做出来的，每次打开它，都会出现一版的“XX大法好”的内容，那时候还不知道推特，只知道有个和人人网差不多的“菲斯不克”，随即注册了下，发现确实能找到歪果仁，当时那种感觉很奇特，有点像黑暗中见到一束光？<br>
@@ -117,17 +117,17 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[越过长城，走向世界]]></title>
-        <id>https://laiyouliao.github.io/post/yue-guo-chang-cheng-zou-xiang-shi-jie/</id>
-        <link href="https://laiyouliao.github.io/post/yue-guo-chang-cheng-zou-xiang-shi-jie/">
+        <id>https://laiyouliao.com/post/yue-guo-chang-cheng-zou-xiang-shi-jie/</id>
+        <link href="https://laiyouliao.com/post/yue-guo-chang-cheng-zou-xiang-shi-jie/">
         </link>
         <updated>2020-05-14T07:25:46.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://laiyouliao.github.io/post-images/1589441256501.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://laiyouliao.com/post-images/1589441256501.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[测试]]></title>
-        <id>https://laiyouliao.github.io/post/ce-shi/</id>
-        <link href="https://laiyouliao.github.io/post/ce-shi/">
+        <id>https://laiyouliao.com/post/ce-shi/</id>
+        <link href="https://laiyouliao.com/post/ce-shi/">
         </link>
         <updated>2020-05-14T05:27:55.000Z</updated>
         <content type="html"><![CDATA[<p>123456</p>
